@@ -7,10 +7,10 @@ Check out the latest [API documentation](http://ethereum-php.org/dev/).
 
 
 ```sh
-composer require digitaldonkey/ethereum-php
+composer require delboy1978uk/ethereum-php
 ```
 
-This is the important part of [composer.json](https://github.com/digitaldonkey/ethereum/blob/8.x-1.x/composer.json) in [Drupal Ethereum Module](https://drupal.org/project/ethereum).
+This is the important part of [composer.json](https://github.com/delboy1978uk/ethereum/blob/8.x-1.x/composer.json) in [Drupal Ethereum Module](https://drupal.org/project/ethereum).
 
 
 ```php
@@ -53,7 +53,7 @@ You can also run tests at smart contracts, check out EthTestClient.
 
 You can use Ethereum-PHP to watch changed on your smart contracts or index a Blockchain block by block. gs
 
-See [UsingFilters](https://github.com/digitaldonkey/ethereum-php/blob/master/UsingFilters.md) and [ethereum-php-eventlistener](https://github.com/digitaldonkey/ethereum-php-eventlistener).
+See [UsingFilters](https://github.com/delboy1978uk/ethereum-php/blob/master/UsingFilters.md) and [ethereum-php-eventlistener](https://github.com/delboy1978uk/ethereum-php-eventlistener).
 
 
 ### Limitations
@@ -65,7 +65,7 @@ This library is read-only for now. This means you can retrieve information store
 To *write* to the blockchain you need a to sign transactions with a private key which is not supported yet.
 
 
-![architecture diagram](https://raw.githubusercontent.com/digitaldonkey/ethereum-php/dev/doxygen-assets/ArchitectureDiagrammCS6.png "Drupal Ethereum architecture")
+![architecture diagram](https://raw.githubusercontent.com/delboy1978uk/ethereum-php/dev/doxygen-assets/ArchitectureDiagrammCS6.png "Drupal Ethereum architecture")
 
 ### Documentation
 
