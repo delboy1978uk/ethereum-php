@@ -3,29 +3,6 @@
 is a typed PHP-7.1+ interface to [Ethereum JSON-RPC API](https://github.com/ethereum/wiki/wiki/JSON-RPC).
 
 Check out the latest [API documentation](http://ethereum-php.org/dev/).
-
-### Add library in a [composer.json](https://getcomposer.org/doc/01-basic-usage.md#composer-json-project-setup) file
-
-```yaml
-{
-  "minimum-stability":"dev",
-  "autoload": {
-    "psr-4": {
-      "Ethereum\\": "src/"
-    }
-  },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/digitaldonkey/ethereum-php.git"
-    }
-  ],
-  "require": {
-    "digitaldonkey/ethereum-php": "dev-master"
-  }
-}
-```
-
 ### Usage
 
 
